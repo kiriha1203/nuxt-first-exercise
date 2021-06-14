@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <p>{{ message }}</p>
+    <p>{{ message }} </p>
     <hr>
-    <router-link to="/mypage">My Page</router-link>
+    <router-link to="/">Top Page</router-link>
   </div>
 </template>
 
@@ -10,11 +10,8 @@
 export default {
   data: function(){
     return{
-      message: 'Top Page'
+      message: 'My Page'
     }
   }
 }
 </script>
-
-<style>
-</style>
